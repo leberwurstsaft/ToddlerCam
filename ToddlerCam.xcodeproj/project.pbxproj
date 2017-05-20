@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		739178301ED0C8FE003AB698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391782F1ED0C8FE003AB698 /* AppDelegate.swift */; };
+		739178321ED0C8FE003AB698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739178311ED0C8FE003AB698 /* ViewController.swift */; };
+		739178351ED0C8FE003AB698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739178331ED0C8FE003AB698 /* Main.storyboard */; };
+		739178371ED0C8FE003AB698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739178361ED0C8FE003AB698 /* Assets.xcassets */; };
+		7391783A1ED0C8FE003AB698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739178381ED0C8FE003AB698 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7391782C1ED0C8FE003AB698 /* ToddlerCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToddlerCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7391782F1ED0C8FE003AB698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		739178311ED0C8FE003AB698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		739178341ED0C8FE003AB698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		739178361ED0C8FE003AB698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		739178391ED0C8FE003AB698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7391783B1ED0C8FE003AB698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		739178291ED0C8FE003AB698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		739178231ED0C8FE003AB698 = {
+			isa = PBXGroup;
+			children = (
+				7391782E1ED0C8FE003AB698 /* ToddlerCam */,
+				7391782D1ED0C8FE003AB698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7391782D1ED0C8FE003AB698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7391782C1ED0C8FE003AB698 /* ToddlerCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7391782E1ED0C8FE003AB698 /* ToddlerCam */ = {
+			isa = PBXGroup;
+			children = (
+				7391782F1ED0C8FE003AB698 /* AppDelegate.swift */,
+				739178311ED0C8FE003AB698 /* ViewController.swift */,
+				739178331ED0C8FE003AB698 /* Main.storyboard */,
+				739178361ED0C8FE003AB698 /* Assets.xcassets */,
+				739178381ED0C8FE003AB698 /* LaunchScreen.storyboard */,
+				7391783B1ED0C8FE003AB698 /* Info.plist */,
+			);
+			path = ToddlerCam;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7391782B1ED0C8FE003AB698 /* ToddlerCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7391783E1ED0C8FE003AB698 /* Build configuration list for PBXNativeTarget "ToddlerCam" */;
+			buildPhases = (
+				739178281ED0C8FE003AB698 /* Sources */,
+				739178291ED0C8FE003AB698 /* Frameworks */,
+				7391782A1ED0C8FE003AB698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToddlerCam;
+			productName = ToddlerCam;
+			productReference = 7391782C1ED0C8FE003AB698 /* ToddlerCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		739178241ED0C8FE003AB698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = leberwurstsaft.de;
+				TargetAttributes = {
+					7391782B1ED0C8FE003AB698 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9D4BRJWWWC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 739178271ED0C8FE003AB698 /* Build configuration list for PBXProject "ToddlerCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 739178231ED0C8FE003AB698;
+			productRefGroup = 7391782D1ED0C8FE003AB698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7391782B1ED0C8FE003AB698 /* ToddlerCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7391782A1ED0C8FE003AB698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7391783A1ED0C8FE003AB698 /* LaunchScreen.storyboard in Resources */,
+				739178371ED0C8FE003AB698 /* Assets.xcassets in Resources */,
+				739178351ED0C8FE003AB698 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		739178281ED0C8FE003AB698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739178321ED0C8FE003AB698 /* ViewController.swift in Sources */,
+				739178301ED0C8FE003AB698 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		739178331ED0C8FE003AB698 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				739178341ED0C8FE003AB698 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		739178381ED0C8FE003AB698 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				739178391ED0C8FE003AB698 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7391783C1ED0C8FE003AB698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7391783D1ED0C8FE003AB698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7391783F1ED0C8FE003AB698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9D4BRJWWWC;
+				INFOPLIST_FILE = ToddlerCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.leberwurstsaft.ToddlerCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		739178401ED0C8FE003AB698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9D4BRJWWWC;
+				INFOPLIST_FILE = ToddlerCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.leberwurstsaft.ToddlerCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		739178271ED0C8FE003AB698 /* Build configuration list for PBXProject "ToddlerCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7391783C1ED0C8FE003AB698 /* Debug */,
+				7391783D1ED0C8FE003AB698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7391783E1ED0C8FE003AB698 /* Build configuration list for PBXNativeTarget "ToddlerCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7391783F1ED0C8FE003AB698 /* Debug */,
+				739178401ED0C8FE003AB698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 739178241ED0C8FE003AB698 /* Project object */;
+}
