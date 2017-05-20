@@ -109,7 +109,7 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate {
         }
     }
 
-    func animateWhiteOverlay {
+    func animateWhiteOverlay() {
         let whiteView = UIView(frame: view.frame)
         whiteView.backgroundColor = .white
         view.addSubview(whiteView)
